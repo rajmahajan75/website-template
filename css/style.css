@@ -1,0 +1,56 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+	font-family: 'Baloo Tamma 2', cursive;
+
+	
+}
+.navbar{
+position: relative;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  margin-left: 33px; 
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid #f5ba03;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid #f5ba03;
+}
+.logo{
+  margin-left: 90px;
+}
+.center-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%)translateY(-50%);
+	}
+.center-text .btn-primary{
+	margin-top: 10px;
+  position: relative;
+	top: 55%;
+	left: 55%;
+	transform: translateX(-55%)translateY(-55%);
+	
+
+}
+@media screen and (max-width: 768px) {
+	.logo{
+		margin-left: 5px;
+	}
+}
